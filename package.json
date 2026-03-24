@@ -1,0 +1,25 @@
+{
+  "name": "skill-risk-auditor",
+  "version": "1.0.0",
+  "description": "OpenClaw skill that inspects other skills for security risks before install or publish",
+  "main": "dist/audit.js",
+  "bin": {
+    "skill-risk-auditor": "dist/audit.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "audit": "node dist/audit.js"
+  },
+  "keywords": [
+    "openclaw",
+    "claude-code",
+    "security",
+    "audit",
+    "skill"
+  ],
+  "license": "MIT-0",
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0"
+  }
+}
